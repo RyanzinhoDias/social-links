@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(0, 0%, 10%);
+    font-family:"Inter", sans-serif;
+}
+
+#conteiner {
+    background: hsl(0, 0%, 15%);
+    width: 400px;
+    height: 600px   ;
+    margin: 56px auto 0px;
+    padding: 0 24px;
+    border-radius: 3%;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#profile {
+    text-align: center;
+    padding: 24px;
+    }
+
+#profile img{
+    width: 112px;
+}
+
+#nome {
+    margin: 15px auto 5px;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+#localizacao {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+#profissao {
+    color: white;
+    margin: 20px;
+    font-weight: 400;
+}
